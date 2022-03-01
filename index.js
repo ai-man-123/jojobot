@@ -359,7 +359,7 @@ Prefix : 「 MULTI-PREFIX 」
 ║┃ *${prefix}term* <code>
 ║┃ _x_ <code>
 ║┗━━━━⊱
-╚═══❏ *BOTZ - SELF* ❏══❍`
+╚═══❏ *BOT SELF* ❏══❍`
         	fakestatus(menu)
            	break
     case 'on':
