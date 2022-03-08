@@ -54,10 +54,10 @@ const TobzKey = 'BotWeA'
 
 banChats = true
 offline = false
-targetpc = '6288213292687'
-owner = '6281319944917'
-fake = 'Arasya - Self'
-owner = '6281319944917'
+targetpc = '60102810046'
+owner = '60102810046'
+fake = 'Aiman - Zahira'
+owner = '60102810046'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -651,15 +651,15 @@ Prefix : 「 MULTI-PREFIX 」
           reply("Reply sw foto / video yg mau dicolong");
         }
         break;
-    case 'l9':
+    case 'me':
     case 'take':
     case 'colong':
     		if (!isQuotedSticker) return reply('Stiker aja om')
             encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 		    media = await syaa.downloadAndSaveMediaMessage(encmedia)
             anu = args.join(' ').split('|')
-            satu = anu[0] !== '' ? anu[0] : `Arasyaa`
-            dua = typeof anu[1] !== 'undefined' ? anu[1] : `@sofunsyabi.id`
+            satu = anu[0] !== '' ? anu[0] : `Aiman`
+            dua = typeof anu[1] !== 'undefined' ? anu[1] : `wa.me/60102810046`
             require('./lib/fetcher.js').createExif(satu, dua)
 			require('./lib/fetcher.js').modStick(media, syaa, mek, from)
 			break
